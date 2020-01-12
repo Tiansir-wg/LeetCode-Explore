@@ -1,0 +1,28 @@
+{
+    "files.associations": {
+        "stdlib.h": "c",
+        "__hash_table": "c",
+        "__split_buffer": "c",
+        "__tree": "c",
+        "array": "c",
+        "bitset": "c",
+        "deque": "c",
+        "initializer_list": "c",
+        "iterator": "c",
+        "map": "c",
+        "queue": "c",
+        "string": "c",
+        "string_view": "c",
+        "unordered_map": "c",
+        "utility": "c",
+        "vector": "c",
+        "ios": "c",
+        "stdio.h": "c",
+        "time.h": "c",
+        "string.h": "c",
+        "algorithm": "cpp",
+        "istream": "cpp",
+        "mman.h": "c",
+        "unistd.h": "c"
+    }
+}

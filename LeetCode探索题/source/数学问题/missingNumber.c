@@ -1,0 +1,20 @@
+// 给定一个包含 0, 1, 2, ..., n 中 n 个数的序列，找出 0 .. n 中没有出现在序列中的那个数。
+
+#include <stdio.h>
+
+// 用[0 - numsSize] 之间的每一个元素和指定的数组进行异或运算
+// 最后的元素就是缺失的
+int missingNumber(int* nums, int numsSize){
+	int missingNum = 0;
+	for(int i = 0;i < numsSize;i++){
+		missingNum =  missingNum ^ nums[i] ^ i;
+	}
+	return missingNum ^ numsSize;
+}
+
+int main(){
+	int arr[] = {3,0,1};
+	printf("%d",missingNumber(arr,3));
+	return 0;
+}
+
